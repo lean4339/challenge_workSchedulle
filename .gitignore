@@ -1,1 +1,36 @@
-node_modules
+# --- NODE ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- ENV VARIABLES ---
+.env
+.env.*.local
+
+# --- LOGS ---
+logs
+*.log
+
+# --- BUILD OUTPUTS ---
+dist/
+build/
+
+# --- VITE ---
+.vite/
+
+# --- COVERAGE / TEST ---
+coverage/
+*.lcov
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
+
+# --- EDITORS ---
+.vscode/
+.idea/
+
+# --- DOCKER ---
+*.pid
